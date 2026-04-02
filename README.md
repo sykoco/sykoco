@@ -4,9 +4,19 @@
 
 <br/>
 
-<div align="center">
-  <img src="img/terminal.svg" width="800" />
-</div>
+```js
+const me = {
+  username : "tvoy_otchim",
+  type     : "altushki s 3 razmerom",
+  status   : "not sleeping  (404)",
+  location : "russia / basement",
+  activity : "python  /  03:00 AM",
+  goal     : "sleep  (perpetually failed)",
+
+  wake_up  : () => { throw new Error("snooze button not found") },
+  sleep_8h : () => { throw new Error("alarm bot is running") },
+}
+```
 
 <br/>
 
