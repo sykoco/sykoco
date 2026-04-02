@@ -1,108 +1,103 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a0a2e,100:0d0d0d&height=140&section=header&animation=twinkling"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,60:1a0a2e,100:0d0d0d&height=200&section=header&text=sykoco&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=45&desc=не+сплю.+пишу+код.+бот+не+даёт.&descAlignY=68&descSize=16&descColor=888888"/>
+
+<br/>
 
 <div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=28&duration=2500&pause=800&color=FFFFFF&center=true&vCenter=true&width=700&lines=не+сплю+пишу+код;бот+который+не+даст+тебе+спать;звоню+пока+не+решишь+пример;sykoco+в+эфире" alt="typing" />
-
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2000&pause=1000&color=8B5CF6&center=true&vCenter=true&multiline=false&width=600&lines=python+dev+%2F+night+shift+only;будильник+есть+%E2%80%94+сплю+всё+равно;bот+звонит+%2B+я+не+беру+%3D+цикл;404%3A+sleep+not+found" alt="Typing SVG" />
 </div>
+
+<br/>
 
 ---
 
 <div align="center">
 
 ```
-╔════════════════════════════════════════════════════╗
-║  me.                                               ║
-║  пишу код ночью. сплю днём. бот не даёт.           ║
-║  специализируюсь на том чтобы другие не спали тоже ║
-╚════════════════════════════════════════════════════╝
+██████████████████████████████████████████████
+█                                            █
+█   $ whoami                                 █
+█   > sykoco                                 █
+█                                            █
+█   $ cat about.txt                          █
+█   > пишу на питоне в 3 ночи               █
+█   > сделал бота который будит людей        █
+█   > иронично — сам не просыпаюсь          █
+█   > специализация: звонки в telegram       █
+█                                            █
+█   $ ./wake_up.sh                           █
+█   > command not found                      █
+█                                            █
+██████████████████████████████████████████████
 ```
 
 </div>
 
 ---
 
-### 👁️ кто я такой
+<div align="center">
 
 ```python
 class Sykoco:
-    pronouns   = "он/him"
-    location   = "🇷🇺 Россия"
-    status     = "💀 не сплю"
-    now        = "пишу что-то на Python в 3 ночи"
-    fun_fact   = "сделал бота который будит людей. иронично."
+    status   = "💀 не сплю"
+    location = "🇷🇺 где-то в рф"
+    vibe     = "пишу код пока все спят"
+    arch     = "linux btw"
 
     def wake_up(self):
-        raise NotImplementedError("кнопки 'отложить' нет")
+        raise NotImplementedError(
+            "кнопки 'отложить' нет. специально."
+        )
+
+    def __repr__(self):
+        return "git push && go to sleep (never)"
 ```
 
----
+</div>
 
-### 🛠️ стек
+---
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-0d0d0d?style=for-the-badge&logo=python&logoColor=3776AB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d0d0d?style=for-the-badge&logo=postgresql&logoColor=336791)
-![Docker](https://img.shields.io/badge/Docker-0d0d0d?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Telegram](https://img.shields.io/badge/Telegram_API-0d0d0d?style=for-the-badge&logo=telegram&logoColor=26A5E4)
-![Linux](https://img.shields.io/badge/Linux-0d0d0d?style=for-the-badge&logo=linux&logoColor=FCC624)
-![Git](https://img.shields.io/badge/Git-0d0d0d?style=for-the-badge&logo=git&logoColor=F05032)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-0d0d0d?style=for-the-badge&logo=python&logoColor=red)
-![asyncio](https://img.shields.io/badge/asyncio-0d0d0d?style=for-the-badge&logo=python&logoColor=white)
+### сейчас делаю
+
+[![budila_altuha](https://github-readme-stats.vercel.app/api/pin/?username=sykoco&repo=budila_altuha&theme=midnight-purple&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=888888&icon_color=8b5cf6)](https://github.com/sykoco/budila_altuha)
+
+> 📞 звонит каждые 2 минуты · выключается только математикой · кнопки «отложить» нет
 
 </div>
 
 ---
 
-### 📊 статы
-
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=sykoco&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=aaaaaa&icon_color=8b5cf6&count_private=true" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sykoco&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=aaaaaa" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=sykoco&theme=midnight-purple&hide_border=true&background=0d0d0d&ring=8b5cf6&fire=ff4444&currStreakLabel=ffffff&sideLabels=aaaaaa&dates=666666" />
-
-</div>
-
----
-
-### 🐍 мои коммиты
-
-<div align="center">
+### активность за всё время
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sykoco/sykoco/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sykoco/sykoco/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/sykoco/sykoco/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sykoco/sykoco/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sykoco/sykoco/output/github-contribution-grid-snake.svg"/>
+  <img alt="snake" src="https://raw.githubusercontent.com/sykoco/sykoco/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
 
 </div>
 
 ---
 
-### 📌 проекты
-
 <div align="center">
 
-[![budila_altuha](https://github-readme-stats.vercel.app/api/pin/?username=sykoco&repo=budila_altuha&theme=midnight-purple&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=aaaaaa&icon_color=8b5cf6)](https://github.com/sykoco/budila_altuha)
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=кнопки+%22отложить%22+нет+%E2%80%94+это+не+баг%2C+это+фича&author=sykoco)
 
 </div>
 
-> 🔔 **budila_altuha** — Telegram-бот который звонит тебе пока не встанешь.
-> Выключается только математикой. Кнопки «отложить» нет — специально.
-
----
+<br/>
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=sykoco&color=8b5cf6&style=for-the-badge&label=СМОТРЕЛИ+ПРОФИЛЬ)
+![Profile Views](https://komarev.com/ghpvc/?username=sykoco&color=8b5cf6&style=for-the-badge&label=ЗАГЛЯДЫВАЛИ)
+&nbsp;
+![GitHub followers](https://img.shields.io/github/followers/sykoco?color=8b5cf6&style=for-the-badge&label=ЧИТАТЕЛЕЙ&logo=github)
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a0a2e,100:0d0d0d&height=100&section=footer&animation=twinkling"/>
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,60:1a0a2e,100:0d0d0d&height=120&section=footer&animation=twinkling"/>
