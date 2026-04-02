@@ -1,32 +1,10 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a0a2e,100:0d0d0d&height=140&section=header&animation=twinkling"/>
-
-<br/>
-
 <div align="center">
-  <img src="img/eye-glitch.png" width="480" />
+  <img src="img/eye-glitch.png" width="100%" />
 </div>
 
-<br/>
-
 <div align="center">
-  <img src="img/me.png" width="180" />
+  <img src="img/eyebrows.png" width="320" />
 </div>
-
-<br/>
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=20&duration=1800&pause=800&color=8B5CF6&center=true&vCenter=true&width=550&lines=404%3A+sleep+not+found;git+commit+-m+%22idk+what+im+doing%22;python+%2F+night+shift+only;nyan+cat+is+my+spirit+animal;bot+calls+%2F+i+dont+pick+up" alt="Typing SVG" />
-</div>
-
-<br/>
-
----
-
-<div align="center">
-  <img src="https://media.giphy.com/media/sIIhZliB2McAo/giphy.gif" width="100%" />
-</div>
-
----
 
 <br/>
 
@@ -54,28 +32,50 @@ class Sykoco:
 
 ---
 
-<div align="center">
+### 📌 проекты
 
-### 📌
+<table width="100%">
+<tr>
 
-[![budila_altuha](https://github-readme-stats.vercel.app/api/pin/?username=sykoco&repo=budila_altuha&theme=midnight-purple&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=888888&icon_color=8b5cf6)](https://github.com/sykoco/budila_altuha)
+<td width="50%" valign="top">
 
-> 📞 звонит каждые 2 минуты · выключается только математикой · кнопки «отложить» нет
+**[🔔 budila_altuha](https://github.com/sykoco/budila_altuha)**
 
-</div>
+Telegram бот который звонит тебе пока не встанешь.
+Выключается только математикой. Кнопки «отложить» нет.
+
+![Python](https://img.shields.io/badge/Python-0d0d0d?style=flat-square&logo=python&logoColor=3776AB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d0d0d?style=flat-square&logo=postgresql&logoColor=336791)
+![Docker](https://img.shields.io/badge/Docker-0d0d0d?style=flat-square&logo=docker&logoColor=2496ED)
+
+</td>
+
+<td width="50%" valign="top">
+
+**совместные работы**
+
+> скоро будет что-то ещё.
+> или не будет. посмотрим.
+
+<!-- добавь сюда ссылку когда будет готово -->
+
+</td>
+
+</tr>
+</table>
 
 <br/>
 
 ---
 
-<div align="center">
+### 🐍 коммиты
 
+<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sykoco/sykoco/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sykoco/sykoco/output/github-contribution-grid-snake.svg"/>
   <img alt="snake" src="https://raw.githubusercontent.com/sykoco/sykoco/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
-
 </div>
 
 <br/>
@@ -85,7 +85,3 @@ class Sykoco:
 ![Profile Views](https://komarev.com/ghpvc/?username=sykoco&color=8b5cf6&style=for-the-badge&label=ЗАГЛЯДЫВАЛИ)
 
 </div>
-
-<br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a0a2e,100:0d0d0d&height=120&section=footer&animation=twinkling"/>
