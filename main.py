@@ -1,14 +1,11 @@
 import gifos
-import os
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-# bundled font from the gifos package
-FONT_PATH = os.path.join(os.path.dirname(gifos.__file__), "gohufont-uni-14.pil")
-
 
 def main():
-    t = gifos.Terminal(750, 500, 15, 15, FONT_PATH, 15)
+    # No font_file passed — gifos uses its bundled gohufont-uni-14.pil by default
+    t = gifos.Terminal(750, 500, 15, 15)
 
     year_now = datetime.now(ZoneInfo("Europe/Moscow")).strftime("%Y")
     time_now = datetime.now(ZoneInfo("Europe/Moscow")).strftime(
@@ -83,23 +80,25 @@ def main():
         print(f"WARN: failed to fetch GitHub stats: {e}")
         commits, stars, contribs, langs_str = "??", "??", "??", "python"
 
-    info = f"""\
- \x1b[30;105m sykoco@GitHub \x1b[0m
- \x1b[90m\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\x1b[0m
- \x1b[96mOS         \x1b[93mwindows / basement\x1b[0m
- \x1b[96mType       \x1b[95maltushki s 3 razmerom\x1b[0m
- \x1b[96mStatus     \x1b[91mnot sleeping  (404)\x1b[0m
- \x1b[96mActivity   \x1b[92mpython  /  03:00 AM\x1b[0m
- \x1b[96mGoal       \x1b[93msleep  (perpetually failed)\x1b[0m
- \x1b[90m\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\x1b[0m
- \x1b[96mCommits ({int(year_now) - 1})  \x1b[93m{commits}\x1b[0m
- \x1b[96mStars       \x1b[93m{stars}\x1b[0m
- \x1b[96mContribs    \x1b[93m{contribs}\x1b[0m
- \x1b[96mLanguages   \x1b[93m{langs_str}\x1b[0m
- \x1b[90m\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\x1b[0m
- \x1b[90m$ sudo wake_up   ->  command not found\x1b[0m
- \x1b[90m$ sleep 8h       ->  alarm bot is running\x1b[0m
-"""
+    sep = "-" * 32
+
+    info = (
+        f" \x1b[30;105m sykoco@GitHub \x1b[0m\n"
+        f" \x1b[90m{sep}\x1b[0m\n"
+        f" \x1b[96mOS         \x1b[93mwindows / basement\x1b[0m\n"
+        f" \x1b[96mType       \x1b[95maltushki s 3 razmerom\x1b[0m\n"
+        f" \x1b[96mStatus     \x1b[91mnot sleeping  (404)\x1b[0m\n"
+        f" \x1b[96mActivity   \x1b[92mpython  /  03:00 AM\x1b[0m\n"
+        f" \x1b[96mGoal       \x1b[93msleep  (perpetually failed)\x1b[0m\n"
+        f" \x1b[90m{sep}\x1b[0m\n"
+        f" \x1b[96mCommits ({int(year_now) - 1})  \x1b[93m{commits}\x1b[0m\n"
+        f" \x1b[96mStars       \x1b[93m{stars}\x1b[0m\n"
+        f" \x1b[96mContribs    \x1b[93m{contribs}\x1b[0m\n"
+        f" \x1b[96mLanguages   \x1b[93m{langs_str}\x1b[0m\n"
+        f" \x1b[90m{sep}\x1b[0m\n"
+        f" \x1b[90m$ sudo wake_up   ->  command not found\x1b[0m\n"
+        f" \x1b[90m$ sleep 8h       ->  alarm bot is running\x1b[0m\n"
+    )
 
     t.clear_frame()
     t.gen_prompt(1)
